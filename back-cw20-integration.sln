@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "back-cw20-integration.Domain", "back-cw20-integration.Domain\back-cw20-integration.Domain.csproj", "{3C5873FD-707C-49DF-88C9-6BBA35C4C2D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "back-cw20-integration.Application", "back-cw20-integration.Application\back-cw20-integration.Application.csproj", "{660CF841-7074-4529-8B41-3F2A3210BC1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "back-cw20-integration.Infrastructure", "back-cw20-integration.Infrastructure\back-cw20-integration.Infrastructure.csproj", "{631415B4-0EF6-4AD1-ACC6-2172011819F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "back-cw20-integration.API", "back-cw20-integration.API\back-cw20-integration.API.csproj", "{59CCF20A-EBBD-4777-B168-D54D2389C773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "back-cw20-integration.Configuration", "back-cw20-integration.Configuration\back-cw20-integration.Configuration.csproj", "{C8360197-DC5E-47DF-8D9A-08B9E5D17E4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "back-cw20-integration.UnitTests", "back-cw20-integration.UnitTests\back-cw20-integration.UnitTests.csproj", "{02D536BE-CA02-6E36-607C-7C04D87DFB85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C5873FD-707C-49DF-88C9-6BBA35C4C2D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5873FD-707C-49DF-88C9-6BBA35C4C2D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5873FD-707C-49DF-88C9-6BBA35C4C2D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5873FD-707C-49DF-88C9-6BBA35C4C2D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{660CF841-7074-4529-8B41-3F2A3210BC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{660CF841-7074-4529-8B41-3F2A3210BC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{660CF841-7074-4529-8B41-3F2A3210BC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{660CF841-7074-4529-8B41-3F2A3210BC1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{631415B4-0EF6-4AD1-ACC6-2172011819F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631415B4-0EF6-4AD1-ACC6-2172011819F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631415B4-0EF6-4AD1-ACC6-2172011819F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631415B4-0EF6-4AD1-ACC6-2172011819F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59CCF20A-EBBD-4777-B168-D54D2389C773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59CCF20A-EBBD-4777-B168-D54D2389C773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59CCF20A-EBBD-4777-B168-D54D2389C773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59CCF20A-EBBD-4777-B168-D54D2389C773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8360197-DC5E-47DF-8D9A-08B9E5D17E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8360197-DC5E-47DF-8D9A-08B9E5D17E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8360197-DC5E-47DF-8D9A-08B9E5D17E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8360197-DC5E-47DF-8D9A-08B9E5D17E4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D536BE-CA02-6E36-607C-7C04D87DFB85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D536BE-CA02-6E36-607C-7C04D87DFB85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D536BE-CA02-6E36-607C-7C04D87DFB85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D536BE-CA02-6E36-607C-7C04D87DFB85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C67FC3B7-668B-4831-BA35-A2A441D6C9FB}
+	EndGlobalSection
+EndGlobal

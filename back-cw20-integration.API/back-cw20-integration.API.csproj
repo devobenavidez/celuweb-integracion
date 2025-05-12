@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>back_cw20_integration.API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\back-cw20-integration.Application\back-cw20-integration.Application.csproj" />
+    <ProjectReference Include="..\back-cw20-integration.Infrastructure\back-cw20-integration.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

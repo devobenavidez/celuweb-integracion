@@ -1,0 +1,16 @@
+## .NET específicos
+bin/
+obj/
+.vs/
+.sonarqube/
+*.user
+*.log
+
+## Secrets
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+*.pfx
+
+## Dependencias
+!**/packages/*.config
